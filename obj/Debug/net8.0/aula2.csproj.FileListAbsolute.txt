@@ -42,3 +42,4 @@ c:\Users\nasci\Documents\GitHub\MeusProjetos\Projeto\CadastrodeLivros\CadastroLi
 c:\Users\nasci\Documents\GitHub\MeusProjetos\Projeto\CadastrodeLivros\CadastroLivros\obj\Debug\net8.0\aula2.pdb
 C:\Users\nasci\Documents\GitHub\MeusProjetos\Projeto\CadastrodeLivros\CadastroLivros\obj\Debug\net8.0\aula2.genruntimeconfig.cache
 C:\Users\nasci\Documents\GitHub\MeusProjetos\Projeto\CadastrodeLivros\CadastroLivros\obj\Debug\net8.0\ref\aula2.dll
+c:\Users\nasci\Documents\GitHub\MeusProjetos\Projeto\CadastrodeLivros\CadastroLivros\obj\Debug\net8.0\aula2.sourcelink.json

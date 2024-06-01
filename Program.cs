@@ -15,9 +15,14 @@ while (true)
         case "1":
         Console.WriteLine("Digite o título do livro");
         var nomelivro = Console.ReadLine();
+        if (string.IsNullOrEmpty(nomelivro))
+        {
+            Console.WriteLine("Nome inválido. Tente novamente");
+            break;
+        }
+        while (string.IsNullOrEmpty(nomelivro));
         livros.Add(nomelivro);
         Console.WriteLine("Livro cadastrado com sucesso!");
-    
         break;
 
         case "2":
@@ -26,6 +31,7 @@ while (true)
             Console.WriteLine(livro);
         }
         break;
+
         case "3":
         Console.WriteLine("Digite o nome do livro");
         var livroremover = Console.ReadLine();
@@ -39,12 +45,13 @@ while (true)
             Console.WriteLine ("Livro não encontrado");
         }
         break;
+
         case "0":
         Console.WriteLine ("Encerrando a aplicação...");
         return ;
         default:
         Console.WriteLine ("Opção inválida!");
-        break; oi
+        break; 
 
     }
 }
